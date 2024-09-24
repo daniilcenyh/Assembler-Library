@@ -7,6 +7,12 @@ public print_string
 
 //------------------------------------------------------------------------------
 
+section '.bss' writable
+    _buffer rb
+    _bss_char rb 1
+
+//------------------------------------------------------------------------------
+
 section '.print_char' executable
 ; input param -> rax = char
 print_char:
