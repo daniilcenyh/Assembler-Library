@@ -1,0 +1,15 @@
+#include <stdint.h>
+
+extern uint8_t c_input_char(void);
+extern uint64_t c_input_number(void);
+extern void c_input_string(uint8_t * str, uint64_t size);
+extern void c_print_bytes(uint8_t * str, uint64_t size);
+extern void c_printf(uint8_t * str, ...);
+extern void c_print_hex(uint64_t number);
+extern void c_print_oct(uint64_t number);
+extern void c_print_bin(uint64_t number);
+extern void c_print_number(uint64_t number);
+extern void c_print_char(uint8_t ch);
+extern void c_print_string(uint8_t * str);
+
+
